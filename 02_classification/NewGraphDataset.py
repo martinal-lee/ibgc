@@ -5,7 +5,7 @@
 @Description:图神经网络输入，新构图法
 @Modified:
     :First modified
-    :Modified content:
+    :Modified content:040312整理上传
 """
 import copy
 import random

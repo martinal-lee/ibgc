@@ -5,7 +5,7 @@
 @Description:生成图神经网络
 @Modified:
     :First modified
-    :Modified content:
+    :Modified content:040312整理上传
 """
 import torch
 from torch_geometric.nn import GCNConv, global_mean_pool, GraphConv, GATConv,SAGEConv
@@ -89,7 +89,7 @@ class SAGEGraphNet(torch.nn.Module):
         x = global_mean_pool(x, batch)  # [batch_size, hidden_channels]
 
         # 3. 分类器
-        x = F.dropout(x, p=0, training=self.training)
+        x = F.dropout(x, p=0.025, training=self.training)
         x = self.lin(x)
         x = F.log_softmax(x, dim=1)
 
