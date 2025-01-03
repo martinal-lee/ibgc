@@ -1,5 +1,4 @@
-# Interaction matters: Encrypted traffic classification via status-based
-interactive behavior graph
+# Interaction matters: Encrypted traffic classification via status-based interactive behavior graph
 >描述：本篇工作将加密流量以交互行为图的形式表示，然后利用图神经网络对加密流量进行分类。
 >Description: This work represents encrypted traffic in the form of interactive behavior graphs, and then utilizes graph neural networks to classify the encrypted traffic.
 
